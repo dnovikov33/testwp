@@ -1,7 +1,10 @@
 <?php get_header(); ?>
 <pre>
 <?php 
-print_r(divide_array(array(rand(0,10),rand(0,10),rand(0,10),rand(0,10),rand(0,10),rand(0,10),rand(0,10),rand(0,10)), 3));
+$arr = array(rand(0,10),rand(0,10),rand(0,10),rand(0,10),rand(0,10),rand(0,10),rand(0,10),rand(0,10));
+echo "Default array: ";
+print_r($arr);
+print_r(divide_array($arr, 3));
  ?>
  </pre>
 <?php get_footer(); ?>
