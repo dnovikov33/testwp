@@ -88,20 +88,6 @@ File created specially for testing task with dividing array. Every time array fi
 ## HelloWorld plugin
 Contains one file, which is hangs on `the_content` filter and adds on the end of it text `hello_world` with color, which depends on part of the day.
 
-
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](http://breakdance.io) - HTML to Markdown converter
-* [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
 ### Installation
 
 To compile files use this instructions. However directory `dist` contains all compiled files.
