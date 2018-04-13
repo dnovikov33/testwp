@@ -1,0 +1,18 @@
+.navbar-nav.nav-miracle {
+
+	.nav-link {
+		color: gray("800");
+
+		&:hover {
+			color: $black;
+		}
+
+		&.active {
+			color: color("blue");
+
+			&:hover {
+				color: darken( color("blue"), 10 );
+			}
+		}
+	}
+}

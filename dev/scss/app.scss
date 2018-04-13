@@ -1,0 +1,22 @@
+@import './bootstrap/bootstrap';
+
+@import './components/nav';
+@import './components/carousel';
+@import './components/news';
+@import './components/footer';
+
+.bg-light-gradient {
+	background: linear-gradient(gray("100") 90%, $white 90%);
+}
+
+.flex-basis-100 {
+	flex-basis: 100% !important;
+
+	&-xs {
+		flex-basis: 100%;
+
+		@include media-breakpoint-up(sm) {
+			flex-basis: auto !important;
+		}
+	}
+}
